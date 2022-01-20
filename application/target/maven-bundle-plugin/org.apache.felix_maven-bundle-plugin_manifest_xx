@@ -1,0 +1,8 @@
+Bundle-Category=kleiber digital
+Export-Package=com.my.group.drtamiproject.*
+Sling-Initial-Content=/apps/my-kestros-project;overwrite:=true;path:=/apps/my-kestros-project,
+              /etc/ui-frameworks;overwrite:=true;path:=/etc/ui-frameworks,
+              /etc/vendor-libraries;overwrite:=true;path:=/etc/vendor-libraries
+Sling-Model-Packages=com.my.group.drtamiproject
+_dsannotations=*
+_metatypeannotations=*

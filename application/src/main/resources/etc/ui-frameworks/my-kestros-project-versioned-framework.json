@@ -1,0 +1,5 @@
+{
+  "jcr:primaryType": "kes:ManagedUiFramework",
+  "jcr:title": "Dr Tami Project Versioned Framework",
+  "kes:uiFrameworkCode": "my-kestros-project-versioned-ui"
+}

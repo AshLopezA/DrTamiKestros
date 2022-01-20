@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.my.group.drtamiproject.core.services.SampleServiceImpl" immediate="true">
+  <service>
+    <provide interface="com.my.group.drtamiproject.api.services.SampleService"/>
+  </service>
+  <implementation class="com.my.group.drtamiproject.core.services.SampleServiceImpl"/>
+</scr:component>

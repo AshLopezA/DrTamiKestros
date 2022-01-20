@@ -1,0 +1,6 @@
+Bundle-Category=kleiber digital
+Export-Package=com.my.group.drtamiproject.*
+Sling-Initial-Content=/content/sites;overwrite:=true;path:=/content/sites
+Sling-Model-Packages=com.my.group.drtamiproject
+_dsannotations=*
+_metatypeannotations=*

@@ -1,0 +1,5 @@
+Bundle-Category=kleiber digital
+Export-Package=com.my.group.drtamiproject.*
+Sling-Model-Packages=com.my.group.drtamiproject
+_dsannotations=*
+_metatypeannotations=*

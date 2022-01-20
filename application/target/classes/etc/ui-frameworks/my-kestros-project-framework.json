@@ -1,0 +1,8 @@
+{
+  "jcr:primaryType": "kes:UiFramework",
+  "jcr:title": "Dr Tami Project Framework",
+  "kes:uiFrameworkCode": "my-kestros-project-ui",
+  "kes:vendorLibraries": [
+    "my-kestros-project-vendor-library"
+  ]
+}

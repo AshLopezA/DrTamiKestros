@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css" />
+  <link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif" />
+  <title>SampleComponent.java</title>
+  <link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css" />
+  <script type="text/javascript" src="../jacoco-resources/prettify.js"></script>
+</head>
+
+<body onload="window['PR_TAB_WIDTH']=4;prettyPrint()">
+  <div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html"
+        class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Dr Tami Project - Application
+      Bundle</a> &gt; <a href="index.source.html"
+      class="el_package">com.my.group.drtamiproject.application.components.samplecomponent</a> &gt; <span
+      class="el_source">SampleComponent.java</span></div>
+  <h1>SampleComponent.java</h1>
+  <pre class="source lang-java linenums">package com.my.group.drtamiproject.application.components.samplecomponent;
+
+import com.my.group.drtamiproject.api.services.SampleService;
+import io.kestros.cms.sitebuilding.api.models.BaseComponent;
+import io.kestros.commons.structuredslingmodels.annotation.KestrosModel;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.sling.api.resource.Resource;
+import org.apache.sling.models.annotations.Model;
+import org.apache.sling.models.annotations.Optional;
+import org.apache.sling.models.annotations.injectorspecific.OSGiService;
+
+@KestrosModel()
+@Model(adaptables = Resource.class,
+       resourceType = &quot;my-kestros-project/components/content/sample-component&quot;)
+<span class="fc" id="L15">public class SampleComponent extends BaseComponent {</span>
+
+  @OSGiService
+  @Optional
+  private SampleService sampleServive;
+
+  public String getMyServiceValue() {
+<span class="nc bnc" id="L22" title="All 2 branches missed.">    if(sampleServive != null) {</span>
+<span class="nc" id="L23">      return sampleServive.getMyServiceValue();</span>
+    }
+<span class="nc" id="L25">    return StringUtils.EMPTY;</span>
+  }
+
+  public String getSampleProperty() {
+<span class="fc" id="L29">    return getProperty(&quot;sampleProperty&quot;, StringUtils.EMPTY);</span>
+  }
+}
+</pre>
+  <div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a>
+      0.8.4.201905082037</span></div>
+</body>
+
+</html>

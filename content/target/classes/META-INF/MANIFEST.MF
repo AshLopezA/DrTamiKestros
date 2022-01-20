@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1642443888850
+Build-Jdk-Spec: 11
+Bundle-Category: kleiber digital
+Bundle-Description: kestros dr tami project
+Bundle-ManifestVersion: 2
+Bundle-Name: Dr Tami Project - Content Bundle
+Bundle-SymbolicName: com.my.group.my-kestros-project.content
+Bundle-Vendor: kleiber digital
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Sling-Initial-Content: /content/sites;overwrite:=true;path:=/content/sit
+ es
+Sling-Model-Packages: com.my.group.drtamiproject
+Tool: Bnd-5.1.1.202006162103

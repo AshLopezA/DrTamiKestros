@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1642443884951
+Build-Jdk-Spec: 11
+Bundle-Category: kleiber digital
+Bundle-Description: kestros dr tami project
+Bundle-ManifestVersion: 2
+Bundle-Name: Dr Tami Project - Application Bundle
+Bundle-SymbolicName: com.my.group.my-kestros-project.application
+Bundle-Vendor: kleiber digital
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.my.group.drtamiproject.api.services;uses:="io.kestro
+ s.commons.osgiserviceutils.services";version="1.0.0",com.my.group.drtam
+ iproject.application.components.samplecomponent;uses:="io.kestros.cms.s
+ itebuilding.api.models,io.kestros.commons.structuredslingmodels.annotat
+ ion,org.apache.sling.api.resource,org.apache.sling.models.annotations";
+ version="1.0.0"
+Import-Package: com.my.group.drtamiproject.api.services;version="[1.0,2)
+ ",io.kestros.cms.sitebuilding.api.models;version="[0.0,1)",io.kestros.c
+ ommons.osgiserviceutils.services;version="[0.1,1)",io.kestros.commons.s
+ tructuredslingmodels.annotation;version="[0.2,1)",org.apache.sling.api.
+ resource;version="[2.9,3)",org.apache.sling.models.annotations;version=
+ "[1.5,2)",org.apache.sling.models.annotations.injectorspecific;version=
+ "[1.1,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Initial-Content: /apps/my-kestros-project;overwrite:=true;path:=/a
+ pps/my-kestros-project,/etc/ui-frameworks;overwrite:=true;path:=/etc/ui
+ -frameworks,/etc/vendor-libraries;overwrite:=true;path:=/etc/vendor-lib
+ raries
+Sling-Model-Packages: com.my.group.drtamiproject
+Tool: Bnd-5.1.1.202006162103
